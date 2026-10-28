@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { FaMoon } from "react-icons/fa";
 import logoBrasao from "../../assets/saudi-arabia-state.svg"
 
 
@@ -65,7 +66,7 @@ export default function Navbar(){
               aria-label="Alternar tema"
               className="p-1 text-neutral-300 hover:text-emerald-400 transition-colors"
             >
-              🌙
+              <FaMoon />
             </button>
             <button className="flex items-center gap-1 px-3 py-1 rounded-full border border-emerald-500/70 text-emerald-400 text-xs font-medium hover:bg-emerald-500/10 transition-colors">
               PT <span className="text-[9px]">▼</span>
