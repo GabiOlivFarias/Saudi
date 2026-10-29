@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { FaMoon } from "react-icons/fa";
+import { TiArrowSortedDown } from "react-icons/ti";
 import logoBrasao from "../../assets/saudi-arabia-state.svg"
 
 
@@ -69,7 +70,10 @@ export default function Navbar(){
               <FaMoon />
             </button>
             <button className="flex items-center gap-1 px-3 py-1 rounded-full border border-emerald-500/70 text-emerald-400 text-xs font-medium hover:bg-emerald-500/10 transition-colors">
-              PT <span className="text-[9px]">▼</span>
+              PT  
+              <span className="text-[14px]">
+                <TiArrowSortedDown />
+              </span>
             </button>
           </div>
         </div>
